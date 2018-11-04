@@ -1,0 +1,133 @@
+* {box-sizing: border-box;}
+
+body {
+    width: auto;
+    height: auto;
+    max-width: 1600px;
+    max-height: 3700px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 1064px;
+    background-size: cover;
+    background-position: bottom center;
+    background-image: url(img/Header/Header.png)
+}
+
+.navigation {
+    width: auto;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+.navigation__menu {
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+
+.navigation__menu a {
+    text-align: center;
+    padding: 21px;
+    text-decoration: none;
+    line-height: 25px;
+    font-family: ﻿Lato-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 16pt;
+    color: rgba(255, 255, 255, 255);
+    
+}
+
+.navigation__menu a:hover {
+    border-bottom: 3px solid white;
+}
+
+.navigation__menu a.active {
+    border-bottom: 3px solid white;
+}
+
+.greeting {
+    width: auto;
+    max-width: 1200px;
+    margin: auto;
+    padding: 360px;
+    text-align: center;
+    color: rgba(255, 255, 255, 255);
+}
+
+.greeting h1 {
+    font-family: ﻿MyriadPro-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular; 
+    text-align: center;
+}
+
+.greeting p {
+    font-family: ﻿Georgia-Italic, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    text-align: center;
+}
+
+.member {
+    height: 123px;
+    background-color: #2fac6c;
+}
+
+.member__login {
+    font-family: ﻿Lato-Bold, ﻿Lato-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 22pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+}
+
+.member__register {
+    float: right;
+    font-family: ﻿Lato-Bold, ﻿Lato-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 22pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    max-height: 2275px;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    max-height: 294px;
+}
+
+
+
+.domain {
+    height: 578px;
+    background-color: #ffffff;
+}
+
+.packages {
+    height: 765px;
+    background-image: url(img/Main/Packages/Packages.png);
+}
+
+.about {
+    height: 400px;
+    background-color: #ffffff;
+}
+
+.comments {
+    height: 193px;
+    background-image: url(img/Main/Comments/Comments.png);
+}
+
+.functions {
+    height: 342px;
+    background-color: #ffffff;
+}
+
+.footer {
+    height: 294px;
+    background-color: #2a2a2a;
+}
