@@ -1,0 +1,21 @@
+.product_main {
+    text-align: center;
+}
+
+.product_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.product_image {
+    width: 30%;
+}
+
+.product_desc {
+    width: 60%;
+    margin-left: 50px;
+}
+
+.product__param {
+    text-align: left;
+}
