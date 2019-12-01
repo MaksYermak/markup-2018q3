@@ -1,0 +1,25 @@
+.contacts_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts_desc {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts__time {
+    width: 50%;
+    text-align: center;
+}
+
+.contacts__data {
+    width: 50%;
+    text-align: center;
+}
+
+.contacts_address {
+    text-align: center;
+}

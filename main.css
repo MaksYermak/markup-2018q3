@@ -9,9 +9,21 @@ body {
     flex-direction: column;
 }
 
+main {
+    width: 95%;
+    max-width: 1200px;
+    margin: 70px auto 50px;
+    min-height: 800px;
+}
+
 .header {
     position: fixed;
     width: -webkit-fill-available;
+    z-index: 1000;
+    top: 0;
+    height: 70px;
+    align-items: center;
+    background: #2a2a2a;
 }
 
 .navigation {
@@ -49,6 +61,9 @@ body {
 .main {
     display: flex;
     flex-direction: column;
+    width: unset;
+    max-width: unset;
+    margin: unset;
 }
 
 .main__header {
