@@ -125,30 +125,6 @@ main {
     color: white;
 }
 
-.domain {
-    height: 578px;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.packages {
-    height: 765px;
-    background-image: url(img/Main/Packages/Packages.png);
-}
-
-.comments {
-    height: 193px;
-    background-image: url(img/Main/Comments/Comments.png);
-}
-
-.functions {
-    height: 342px;
-    background-color: #ffffff;
-}
-
 .footer {
     height: 294px;
     background-color: #2a2a2a;
