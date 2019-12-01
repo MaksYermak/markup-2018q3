@@ -139,11 +139,6 @@ main {
     background-image: url(img/Main/Packages/Packages.png);
 }
 
-.about {
-    height: 400px;
-    background-color: #ffffff;
-}
-
 .comments {
     height: 193px;
     background-image: url(img/Main/Comments/Comments.png);
