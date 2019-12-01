@@ -4,51 +4,55 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ghost Host</title>
+    <title>Обувной</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/main.css" />
     <script src="main.js"></script>
 </head>
 
 <body>
     <header class="header">
         <div class="navigation">
-            <a href="#default" class="logo"><img src="img/Header/Logo.png" /></a>
+            <a href="/" class="logo"><img src="/img/Header/Logo.png" /></a>
             <nav class="navigation__menu">
-                <a class="active" href="">Home</a>
-                <a href="">Domain</a>
-                <a href="">Hosting</a>
-                <a href="">Clients</a>
-                <a href="">Blog</a>
-                <a href="">Support</a>
+                <a class="active" href="/">Главная</a>
+                <a href="/news">Новости</a>
+                <a href="/contacts">Контакты</a>
+                <a href="/catalog">Каталог</a>
+                <a href="/faq">F.A.Q</a>
+                <a href="/customers">Покупателю</a>
+                <a href="/shops">Магазины</a>
             </nav>
-            <img src="img/Header/Header Stick.png">
-        </div>
-
-        <div class="greeting">
-            <h1>HELLO!</h1>
-            <p>We love our work...<br />
-                And We're taking it seriously...
-            </p>
-        </div>
-
-        <div class="member">
-            <div class="member__login">LOGIN</div>
-            <div class="member__register">REGISTER</div>
+            <img src="/img/Header/Header Stick.png">
         </div>
     </header>
-    <main class="main">
-        <section class="domain">
-            <h2>Would you like to buy a new domain ?</h2>
-            <p></p>
-        </section>
-        <section class="packages"></section>
-        <section class="about"></section>
-        <section class="comments"></section>
-        <section class="functions"></section>
-    </main>
-    <footer class="footer">
 
+    <main class="main">
+        <section class="main__header">
+            <div class="greeting">
+                <p>We love our work...<br />
+                    And We're taking it seriously...
+                </p>
+                <a href="/catalog">
+                    <button class="greeting__button">
+                        КАТАЛОГ
+                    </button>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__head">
+            <img class="footer__icon" src="/img/Main/About Us Section/img1-md.png" />
+            <img class="footer__icon" src="/img/Main/About Us Section/img1-md.png" />
+            <img class="footer__icon" src="/img/Main/About Us Section/img1-md.png" />
+            <img class="footer__icon" src="/img/Main/About Us Section/img1-md.png" />
+        </div>
+        <div class="footer__about">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum, id
+                molestier.</p>
+        </div>
     </footer>
 </body>
 
